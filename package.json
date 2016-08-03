@@ -1,0 +1,25 @@
+{
+  "name": "ZebraTechnologies",
+  "version": "1.0.0",
+  "description": "Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm prune && npm install && cd public/assets/ && npm run build",
+    "repack":"cd public/assets/ && gulp && webpack",
+    "clean": "cd public/assets/ && rm -rf dist/*",
+    "bye": "npm uninstall `ls -1 node_modules | tr '/\n' ' '` && cd public/assets && npm uninstall `ls -1 node_modules | tr '/\n' ' '` && rm -rf dist/*", 
+    "start": "node express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrishacia/budget.git"
+  },
+  "author": "Christopher Hacia <me@chrishacia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "underscore": "^1.8.3"
+  }
+}

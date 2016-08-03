@@ -1,0 +1,34 @@
+{
+	"accounts": [
+		{
+			"firstName": "Christopher",
+			"lastName": "Hacia",
+			"email": "christopher.hacia@gmail.com",
+			"dob": 342662400000
+		},
+		{
+			"firstName": "Paul",
+			"lastName": "McCartney",
+			"email": "pmccartney@beatles.com",
+			"dob": -869097600000
+		},
+		{
+			"firstName": "Ringo",
+			"lastName": "Starr",
+			"email": "rstarr@beatles.com",
+			"dob": -930528000000
+		},
+		{
+			"firstName": "John",
+			"lastName": "Lennon",
+			"email": "jlennon@beatles.com",
+			"dob": -922406400000
+		},
+		{
+			"firstName": "George",
+			"lastName": "Harrison",
+			"email": "gharrison@beatles.com",
+			"dob": -847324800000
+		}
+	]
+}
